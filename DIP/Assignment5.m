@@ -1,3 +1,4 @@
+%% MATLAB Implementation of Otsu Thresholding
 close all;
 clear all;
 clc

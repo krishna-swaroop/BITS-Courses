@@ -1,3 +1,4 @@
+%%% Testing out various operator filters
 clear all;
 clc
 img=imread('hubble.tif');

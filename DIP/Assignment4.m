@@ -1,3 +1,5 @@
+%%% MATLAB Implementation of JPEG Compression Algorithm
+
 clear all
 n = 8;
 m = 8 ;
@@ -129,7 +131,7 @@ for A=1:I_dim(1)/N
         % Encoding the count values along with their symbols.
         I_runcode(A,B).code=zeros(1,0);
         for i=1:dim
-            I_runcode(A,B).code=[I_runcode(A,B).code,dec2bin(run.count(i),codelength),run.sym(i)];
+            I_runcode(A,B).code=[I_runcode(A,B).code,dec2bin(run.count(i),codelength),run.sym(i)]; %%% Access JPEG Bitstream from this structure
         end
     end
 end

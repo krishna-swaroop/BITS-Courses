@@ -1,3 +1,10 @@
+%%% Made as a group project for partial fulfillment of Digital Signal Processing course in 5th semester at BITS Pilani.
+%%% Uploaded by D. Krishna Swaroop 2017A3PS0315P
+%%% Other Group Members- Tejas Nimish Shah, Derek Shawn Mathias, Chinmay Nema
+
+
+%%% Realization of IIR Multiple Notch Filter based on an All-pass  filter
+
 N=2;                                    %% Order of the filter required
 n=[0.3 0.5];                              %% For odd-harmonics n=zeros(1,N); for i=1:N (n(i)=2*(i-1)+1;)
 
